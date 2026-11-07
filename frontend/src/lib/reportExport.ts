@@ -8,7 +8,7 @@ import type { FinalRecommendation } from "./api";
 
 // ─── Color Palette ───
 const COLORS = {
-  teal: [20, 184, 166] as [number, number, number],
+  teal: [99, 102, 241] as [number, number, number],
   cyan: [6, 182, 212] as [number, number, number],
   amber: [245, 158, 11] as [number, number, number],
   rose: [244, 63, 94] as [number, number, number],
@@ -187,8 +187,8 @@ export async function exportLegalReportPDF(rec: FinalRecommendation): Promise<vo
         bt.impact_level?.toLowerCase() === "critical"
           ? COLORS.rose
           : bt.impact_level?.toLowerCase() === "high"
-          ? COLORS.amber
-          : COLORS.cyan;
+            ? COLORS.amber
+            : COLORS.cyan;
 
       doc.setFillColor(...impactColor);
       doc.roundedRect(14, y, 28, 5.5, 1, 1, "F");

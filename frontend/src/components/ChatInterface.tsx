@@ -318,8 +318,8 @@ export default function ChatInterface({
                   width: "36px",
                   height: "36px",
                   borderRadius: "12px",
-                  background: "rgba(20, 184, 166, 0.15)",
-                  border: "1px solid rgba(20, 184, 166, 0.3)",
+                  background: "rgba(99, 102, 241, 0.15)",
+                  border: "1px solid rgba(99, 102, 241, 0.3)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -604,9 +604,9 @@ function RecommendationResultView({ rec }: { rec: FinalRecommendation }) {
               fontWeight: 700,
               padding: "3px 10px",
               borderRadius: "9999px",
-              background: "rgba(20, 184, 166, 0.12)",
+              background: "rgba(99, 102, 241, 0.12)",
               color: "var(--accent-teal)",
-              border: "1px solid rgba(20, 184, 166, 0.25)",
+              border: "1px solid rgba(99, 102, 241, 0.25)",
               letterSpacing: "0.04em",
               textTransform: "uppercase",
             }}
@@ -631,16 +631,16 @@ function RecommendationResultView({ rec }: { rec: FinalRecommendation }) {
               gap: "6px",
               padding: "5px 12px",
               borderRadius: "9999px",
-              background: isExporting ? "var(--liquid-glass-1)" : "rgba(20, 184, 166, 0.1)",
-              border: "1px solid rgba(20, 184, 166, 0.3)",
+              background: isExporting ? "var(--liquid-glass-1)" : "rgba(99, 102, 241, 0.1)",
+              border: "1px solid rgba(99, 102, 241, 0.3)",
               color: isExporting ? "var(--text-muted)" : "var(--accent-teal)",
               fontSize: "0.75rem",
               fontWeight: 600,
               cursor: isExporting ? "not-allowed" : "pointer",
               transition: "all 0.2s",
             }}
-            onMouseEnter={(e) => { if (!isExporting) e.currentTarget.style.background = "rgba(20, 184, 166, 0.18)"; }}
-            onMouseLeave={(e) => { if (!isExporting) e.currentTarget.style.background = "rgba(20, 184, 166, 0.1)"; }}
+            onMouseEnter={(e) => { if (!isExporting) e.currentTarget.style.background = "rgba(99, 102, 241, 0.18)"; }}
+            onMouseLeave={(e) => { if (!isExporting) e.currentTarget.style.background = "rgba(99, 102, 241, 0.1)"; }}
           >
             <CheckCircle2 size={12} />
             <span>{isExporting ? "Exporting..." : "Export PDF Report"}</span>

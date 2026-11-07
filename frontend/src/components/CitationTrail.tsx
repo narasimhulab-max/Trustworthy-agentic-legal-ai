@@ -54,7 +54,7 @@ export function CitationTrail({ articles }: CitationTrailProps) {
                       width: "28px",
                       height: "28px",
                       borderRadius: "6px",
-                      background: isCase ? "rgba(6, 182, 212, 0.12)" : "rgba(20, 184, 166, 0.12)",
+                      background: isCase ? "rgba(56, 189, 248, 0.12)" : "rgba(99, 102, 241, 0.12)",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -94,9 +94,9 @@ export function CitationTrail({ articles }: CitationTrailProps) {
                       fontWeight: 600,
                       padding: "2px 8px",
                       borderRadius: "9999px",
-                      background: "rgba(20, 184, 166, 0.1)",
+                      background: "rgba(99, 102, 241, 0.1)",
                       color: "var(--accent-teal)",
-                      border: "1px solid rgba(20, 184, 166, 0.2)",
+                      border: "1px solid rgba(99, 102, 241, 0.2)",
                     }}
                   >
                     {Math.round(article.relevance_score * 100)}% Match

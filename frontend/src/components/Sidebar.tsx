@@ -187,8 +187,8 @@ export default function Sidebar({
               width: "32px",
               height: "32px",
               borderRadius: "10px",
-              background: "rgba(20, 184, 166, 0.15)",
-              border: "1px solid rgba(20, 184, 166, 0.3)",
+              background: "rgba(99, 102, 241, 0.15)",
+              border: "1px solid rgba(99, 102, 241, 0.3)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -487,7 +487,7 @@ export default function Sidebar({
               color: "#ffffff",
               fontSize: "0.75rem",
               fontWeight: 700,
-              boxShadow: "0 2px 10px rgba(20, 184, 166, 0.3)",
+              boxShadow: "0 2px 10px rgba(99, 102, 241, 0.35)",
             }}
           >
             JR
